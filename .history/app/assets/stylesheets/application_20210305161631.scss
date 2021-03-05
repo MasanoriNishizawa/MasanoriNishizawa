@@ -1,0 +1,26 @@
+@import"reset";
+@import"top";
+
+@font-face {
+  font-family: 'fontopoNEUTRAL';
+  src: font-url('fontopoNEUTRAL-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontopoSunnyDay';
+  src: font-url('fontopoSunnyDay-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+boby{
+  background-color: #f5f5f5;
+}

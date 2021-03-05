@@ -1,0 +1,21 @@
+header{
+  .contents{
+    width: 3750px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+      display: flex;
+      li{
+        margin: 20px;
+        a{
+          p{
+            color: palevioletred;
+          }
+        }
+      }
+    }
+  }
+}

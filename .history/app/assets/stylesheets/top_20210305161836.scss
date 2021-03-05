@@ -1,0 +1,38 @@
+// ヘッダーメニューバー
+
+header{
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  .contents{
+    width: 750px;
+    height: 100px;
+    @include center;
+    ul{
+      display: flex;
+      li{
+        margin: 20px;
+        a{
+          text-decoration: none;
+          font-size: 35px;
+          p{
+            font-family: fontopoNEUTRAL;
+            color: #c0c0c0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// メインのロゴ部分
+main{
+  height: 700px;
+  width: 100%;
+  @include center;
+  p{
+    font-size: 50px;
+    font-family: fontopoSunnyDay;
+    color: #a9a9a9;
+  }
+}

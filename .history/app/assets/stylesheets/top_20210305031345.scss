@@ -1,0 +1,25 @@
+header{
+  background-color: transparent;
+  .contents{
+    width: 750px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+      display: flex;
+      li{
+        margin: 20px;
+        a{
+          text-decoration: none;
+          font-size: 35px;
+          p{
+            font-family: fontopoNEUTRALRegular;
+            color: #f8f8f8;
+          }
+        }
+      }
+    }
+  }
+}
