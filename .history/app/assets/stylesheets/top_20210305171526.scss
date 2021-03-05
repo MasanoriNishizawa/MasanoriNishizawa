@@ -1,0 +1,42 @@
+// ヘッダーメニューバー
+
+header{
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  .contents{
+    width: 750px;
+    height: 100px;
+    @include center;
+    &__menu{
+      display: flex;
+      li{
+        margin: 20px;
+        a{
+          text-decoration: none;
+          font-size: 35px;
+          p{
+            font-family: fontopoNEUTRAL;
+            color: #c0c0c0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// メインのロゴ部分
+main{
+  height: 700px;
+  @include center;
+  p{
+    animation: fadeIn 5s ease 0s 1 normal;
+    @keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+      0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+      100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+    }
+    font-size: 75px;
+    font-family: fontopoSunnyDay;
+    color: #a9a9a9;
+  }
+}
