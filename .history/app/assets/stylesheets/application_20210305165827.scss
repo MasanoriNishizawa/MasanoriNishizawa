@@ -1,0 +1,31 @@
+// フォントNEATRAL設定
+@font-face {
+  font-family: 'fontopoNEUTRAL';
+  src: font-url('fontopoNEUTRAL-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// フォント"SunnyDay"設定
+@font-face {
+  font-family: 'fontopoSunnyDay';
+  src: font-url('fontopoSunnyDay-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 要素を真ん中に表示
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+// 全体のCSS設定
+boby{
+  background-color: red;
+// インポート
+  @import"reset";
+  @import"top";
+}
