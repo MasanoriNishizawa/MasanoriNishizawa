@@ -1,0 +1,20 @@
+header{
+  height: 100px;
+  width: 100%;
+  .contents{
+    width: 300px;
+    margin: auto;
+    ul{
+      display: flex;
+      text-align: center;
+      li{
+
+        a{
+          p{
+            color: palevioletred;
+          }
+        }
+      }
+    }
+  }
+}

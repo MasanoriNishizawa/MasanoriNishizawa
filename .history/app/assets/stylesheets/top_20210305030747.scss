@@ -1,0 +1,23 @@
+header{
+  .contents{
+    width: 750px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+      display: flex;
+      li{
+        margin: 50px;
+        a{
+          text-decoration: none;
+          font-size: 35px;
+          p{
+            color: #;
+          }
+        }
+      }
+    }
+  }
+}

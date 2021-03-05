@@ -1,0 +1,43 @@
+// ヘッダーメニューバー
+
+header{
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  .contents{
+    width: 750px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul{
+      display: flex;
+      li{
+        margin: 20px;
+        a{
+          text-decoration: none;
+          font-size: 35px;
+          p{
+            font-family: fontopoNEUTRAL;
+            color: #f8f8f8;
+          }
+        }
+      }
+    }
+  }
+}
+
+// メインのロゴ部分
+main{
+  height: 750px;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  p{
+    
+  }
+}

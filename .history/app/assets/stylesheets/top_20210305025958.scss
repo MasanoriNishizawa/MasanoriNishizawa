@@ -1,0 +1,19 @@
+header{
+  height: 100px;
+  width: 100%;
+  .contents{
+    
+    ul{
+      margin: auto;
+      display: flex;
+      li{
+
+        a{
+          p{
+            color: palevioletred;
+          }
+        }
+      }
+    }
+  }
+}
